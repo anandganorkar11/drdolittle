@@ -20,6 +20,7 @@ public class PetClinicApplication {
 	}
 
  //comment development
+
     @Bean
     public Docket customDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
