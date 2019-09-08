@@ -4,7 +4,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 public class ServletInitializer extends SpringBootServletInitializer {
-//comment added
+//removed comment
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(PetClinicApplication.class);
